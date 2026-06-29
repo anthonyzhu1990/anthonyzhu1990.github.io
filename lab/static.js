@@ -2,43 +2,40 @@ const EMAIL = "anthonyzhu1990@hotmail.com";
 
 const researchDirections = [
   {
-    title: "计算光谱系统及应用",
-    short: "红外光谱芯片、计算光谱成像、深度学习光谱超分辨。",
-    image: "./assets/lab/research-computational-spectroscopy.png",
-    details: [
-      "在光电响应调控基础上，制备计算光谱芯片及系统。",
-      "使用压缩感知类算法、ResNet、生成模型等深度学习方法进行智能化数据处理。",
-      "应用场景包括气体探测、挥发性有机物探测、生物医学监测等。",
-      "当前课题包括红外光谱芯片设计、计算光谱成像系统、基于深度学习的光谱超分辨算法。",
-      "实验室搭建有光电芯片综合性能表征平台：傅里叶光谱仪、黑体响应测试、光电流显微成像、带宽测量、噪声测量等。"
-    ],
-    tasks: ["光谱芯片设计", "光谱成像实验", "深度学习光谱重建"]
-  },
-  {
-    title: "光电编码及感知器件",
-    short: "微纳光学结构、电/热调控、低维材料光电响应和感算一体。",
+    title: "光谱编码结构与器件",
+    short: "面向微型光谱探测的编码薄膜、微纳结构、光电器件和芯片平台。",
     image: "./assets/lab/research-optoelectronic-encoding.png",
     details: [
-      "通过光电响应优化、多维探测、感算一体等方式构建新型感知器件。",
-      "使用微纳光学结构、电调控、热调控等方式调控传统体材料或低维材料的光电响应。",
-      "面向光谱探测、可重构视觉等新型感知任务。",
-      "获得国家自然科学基金、浙江省基金重大项目等支持。",
-      "实验室搭建光电材料平台：自主设计材料生长设备、半导体参数分析仪、光谱显微测试设备等。"
+      "研究光谱编码薄膜、微纳光学结构和光电响应调控方法。",
+      "围绕微型光谱探测需求开展器件设计、制备、表征和系统集成。",
+      "关注编码结构与探测器件的匹配关系，提升光谱响应差异性、稳定性和可制造性。",
+      "适合希望在微纳结构仿真、薄膜和器件制备、光电响应测试之间开展交叉研究的学生。"
     ],
-    tasks: ["微纳结构仿真", "薄膜和器件制备", "光电响应测试"]
+    tasks: ["编码结构设计", "薄膜和器件制备", "光电响应测试"]
   },
   {
-    title: "智能光电探测器件与芯片基础研究",
-    short: "面向环境、生命、气体探测、挥发性有机物和生物医学监测。",
+    title: "微型光谱仪器",
+    short: "微型光谱仪系统、光谱芯片、标定流程、光机电集成和数据重建。",
+    image: "./assets/lab/research-computational-spectroscopy.png",
+    details: [
+      "面向小型化、低功耗和应用部署需求，开展微型光谱仪器方案设计。",
+      "研究光谱芯片、探测器、读出电路、标定流程和数据重建算法的协同优化。",
+      "结合压缩感知、深度学习等方法提升微型光谱仪的重建精度和鲁棒性。",
+      "适合希望参与系统搭建、仪器标定、算法验证和原型机迭代的学生。"
+    ],
+    tasks: ["光谱仪系统搭建", "仪器标定", "光谱重建算法"]
+  },
+  {
+    title: "微型光谱仪评价及应用",
+    short: "微型光谱仪性能评价、应用验证、场景数据采集和可靠性分析。",
     image: "./assets/lab/research-intelligent-detector.png",
     details: [
-      "围绕智能光电探测器件、芯片基础研究开展长期课题布局。",
-      "结合物理机制、芯片平台、光谱系统和 AI 数据处理方法。",
-      "面向环境、生命等领域开展应用研究。",
-      "参与微纳光子芯片集成光谱分析与成像技术、长波红外焦平面器件等国家级项目。",
-      "适合希望在器件、系统、算法和应用之间做交叉研究的学生。"
+      "建立微型光谱仪分辨率、信噪比、稳定性、重复性和环境适应性的评价方法。",
+      "围绕气体探测、挥发性有机物、生物医学监测、工业检测等场景开展应用验证。",
+      "研究样品、场景、标定漂移和算法误差对仪器输出的影响。",
+      "适合希望在仪器测试、数据分析、应用实验和评价标准之间开展交叉研究的学生。"
     ],
-    tasks: ["探测器表征", "系统标定", "智能感知算法验证"]
+    tasks: ["性能评价", "应用实验", "数据分析"]
   }
 ];
 
@@ -52,7 +49,7 @@ const programs = [
       "有进取心、具有严谨科学态度且可以全职从事博士后研究工作的人员；",
       "毕业于211高校及中科院体系者优先；"
     ],
-    directions: ["光谱编码薄膜及微结构研究", "光电探测器及光谱芯片研究", "微型光谱仪器及算法应用"],
+    directions: ["光谱编码结构与器件", "微型光谱仪器", "微型光谱仪评价及应用"],
     notes: "【博后待遇】\n1.在站两年，年薪不低于36万，额外叠加课题组补充津贴；\n2.应届毕业生可申领免税补贴10万元，全球前百强高校毕业生额外可申领5万元，国（境）外博士后再增加5万元生活补贴；\n3.出站留杭工作的，可申领免税补助40万，留杭高院可额外申领专项补助40万元；\n4.博士后出站可申请认定杭州市D类人才，申领购房补贴100万元；\n5.充足的研究生助手和科研经费；"
   },
   {
@@ -64,7 +61,7 @@ const programs = [
       "征得校方及导师同意，来我院实习期不少于一年半;",
       "微电子，光学工程，电子信息，物理，材料，计算机，人工智能等专业;"
     ],
-    directions: ["光谱编码薄膜及微结构研究", "光电探测器及光谱芯片研究", "微型光谱仪器及算法应用"],
+    directions: ["光谱编码结构与器件", "微型光谱仪器", "微型光谱仪评价及应用"],
     notes: "光学结构设计、算法、电路设计可远程\n1.每月提供助学金：2500-4500元/月；\n2.可报销往返交通费（实报实销）；\n3.充足的研究生助手和科研经费；\n4.部分科研成果以原单位为第一单位，原单位导师为通讯作者；"
   },
   {
@@ -75,7 +72,7 @@ const programs = [
       "微电子，光学工程，电子信息，物理，材料，计算机，人工智能等专业",
       "品学兼优，保研优先"
     ],
-    directions: ["微电子与固体电子学（光谱芯片）", "光电工程（光谱仪器）", "人工智能（光谱算法）"],
+    directions: ["光谱编码结构与器件", "微型光谱仪器", "微型光谱仪评价及应用"],
     notes: "1.研究生平均每月3K+奖励；\n2.完善的培训体系，充足的科研经费；\n3.升学杭高院绿色护航通道；"
   },
   {
@@ -87,53 +84,9 @@ const programs = [
       "微电子、物理、光学、计算机、人工智能、电子和材料等专业，学习成绩优秀，读研意志坚定；",
       "积极主动，做事可靠，大三每周至少可实习两天，寒暑假可实习，三分钟热度勿扰。"
     ],
-    directions: ["微电子与固体电子学（光谱芯片）", "光电工程（光谱仪器）", "人工智能（光谱算法）"],
+    directions: ["光谱编码结构与器件", "微型光谱仪器", "微型光谱仪评价及应用"],
     notes: "1.在校实习生助学金：1000元/月+奖励；\n2.毕业实习生助学金：2000元/月+奖励；\n3.在校生可报销往返交通费；\n4.完善的培训体系，充足的科研经费；\n5.升学杭高院绿色护航通道；"
   }
-];
-
-const supportItems = [
-  ["稳定课题与经费支撑", "围绕光电探测、计算光谱、微纳光学和智能感知方向开展长期研究，相关课题具有持续项目基础。"],
-  ["实验平台与测试条件", "可接触材料生长、器件制备、光电表征、光谱系统搭建和数据处理等科研环节。"],
-  ["交叉训练路径", "根据学生基础匹配器件、系统、算法、应用等任务，鼓励逐步建立完整科研问题意识。"],
-  ["科研写作与工具支持", "在文献整理、代码辅助、科研写作和实验记录等方面提供规范训练和必要工具支持。"],
-  ["申请与发展支持", "表现优秀者可获得后续科研训练、组内交流和申请支持，具体以实际贡献和阶段表现为准。"],
-  ["规范沟通与合作边界", "博士联合培养和交流申请需尊重原导师与培养单位，提前明确任务、署名、经费和成果归属。"]
-];
-
-const resources = [
-  ["实验平台", [
-    "光电芯片综合性能表征平台：傅里叶光谱仪、黑体响应测试、光电流显微成像、带宽测量、噪声测量等。",
-    "光电材料平台：自主设计材料生长设备、半导体参数分析仪、光谱显微测试设备等。"
-  ]],
-  ["合作资源", [
-    "与清华大学、浙江大学、西湖大学、中国科学院上海技术物理所等开展光电探测芯片等联合研究。",
-    "与海康微影、与光科技、杭州高谱成像、启思（杭州）、杭州树芯科技等企业开展光电传感器等联合研究。"
-  ]]
-];
-
-const achievements = [
-  "代表论文包括 Advanced Functional Materials 2026：A High-Resolution Miniaturized Mid-Wave Infrared Spectrometer Operating at Room Temperature。",
-  "Optics Letters 2026：Monolithic photon-trapping Si detector for high-efficiency ultra-broadband infrared detection。",
-  "Optics Express 2024：Rapid in-situ Deviation Calibration of Computational Micro-spectrometer with Few-shot Meta-learning。",
-  "Optics Express 2023：General-purpose mid-infrared micro-spectrometer based on hierarchical residual CNN and data augmentation。",
-  "IEEE Transactions on Geoscience and Remote Sensing 2021：Radar HRRP Target Recognition Model Based on a Stacked CNN-Bi-RNN With Attention Mechanism。",
-  "主持国家自然科学基金面上项目、青年项目、浙江省重点研发项目等；参与国家重点研发计划、国自然重大项目、核高基重大专项等。"
-];
-
-const outcomes = [
-  ["盛渝淞", "2023 级硕士", "上海交通大学读博"],
-  ["于忠洋", "2023 级硕士", "长江存储"],
-  ["陈修腾", "2023 级硕士", "长江存储"],
-  ["王茜", "2023 级硕士", "长鑫存储"],
-  ["张璇", "2023 级硕士", "北京理工大学读博（计算机）"],
-  ["杨美晨", "2021 级硕士", "成飞集团"],
-  ["曾晨晨", "2021 级硕士", "上海技术物理研究所读博"],
-  ["肖云龙", "2020 级硕士", "上海技术物理研究所读博"],
-  ["刘婧", "2020 级硕士", "超聚变（华为服务器部门）"],
-  ["赵志强", "2020 级硕士", "先临三维"],
-  ["郝春慧", "2020 级硕士", "上海兴感半导体"],
-  ["刘爱玲", "2017 级硕士", "字节跳动"]
 ];
 
 const processItems = [
@@ -219,14 +172,6 @@ function renderPrograms() {
 }
 
 function renderStaticSections() {
-  $("#support-grid").innerHTML = supportItems.map(([title, body]) => `<article><strong>${escapeHtml(title)}</strong><p>${escapeHtml(body)}</p></article>`).join("");
-  $("#resource-list").innerHTML = resources.map(([title, items]) => `
-    <article><h3>${escapeHtml(title)}</h3><ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></article>
-  `).join("");
-  $("#achievement-list").innerHTML = achievements.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
-  $("#outcome-list").innerHTML = outcomes.map(([name, stage, destination]) => `
-    <article><strong>${escapeHtml(name)}</strong><span>${escapeHtml(stage)}</span><p>${escapeHtml(destination)}</p></article>
-  `).join("");
   $("#process-list").innerHTML = processItems.map(([index, title, body]) => `
     <article><span>${escapeHtml(index)}</span><strong>${escapeHtml(title)}</strong><p>${escapeHtml(body)}</p></article>
   `).join("");
