@@ -1,4 +1,4 @@
-const EMAIL = "hezhu@ucas.ac.cn";
+const EMAIL = "anthonyzhu1990@hotmail.com";
 
 const researchDirections = [
   {
