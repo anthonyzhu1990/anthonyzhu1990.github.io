@@ -45,38 +45,6 @@ button {
     linear-gradient(135deg, #173f52, #233642 55%, #152129);
 }
 
-.ambassador-page {
-  background: #f7f9fb;
-}
-
-.ambassador-hero {
-  min-height: 520px;
-  color: #fff;
-  background:
-    linear-gradient(90deg, rgba(12, 28, 39, 0.94), rgba(12, 28, 39, 0.72)),
-    url("./assets/lab/research-optoelectronic-encoding.png") center / cover;
-}
-
-.ambassador-hero-inner {
-  max-width: 1160px;
-  margin: 0 auto;
-  padding: 96px 24px 88px;
-}
-
-.ambassador-hero-inner h1 {
-  max-width: 760px;
-  margin-top: 12px;
-}
-
-.ambassador-hero-inner p:not(.eyebrow) {
-  max-width: 1160px;
-  margin-top: 18px;
-  color: #e2edf0;
-  font-size: 18px;
-  line-height: 1.78;
-  text-align: justify;
-}
-
 #photonic-canvas {
   position: absolute;
   inset: 0;
@@ -328,8 +296,6 @@ h2 {
 .research-grid,
 .benefit-grid,
 .resource-layout,
-.referral-grid,
-.ambassador-principles,
 .privilege-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -343,8 +309,6 @@ h2 {
 .resource-layout article,
 .outcome-grid article,
 .process-list article,
-.referral-grid article,
-.ambassador-principles article,
 .privilege-grid article,
 .apply-card,
 .publication-card,
@@ -367,8 +331,6 @@ h2 {
 .resource-layout article:hover,
 .outcome-grid article:hover,
 .process-list article:hover,
-.referral-grid article:hover,
-.ambassador-principles article:hover,
 .privilege-grid article:hover,
 .apply-card:hover,
 .publication-card:hover,
@@ -421,8 +383,7 @@ h2 {
 .publication-card li,
 .program-detail li,
 .program-note,
-.faq-list p,
-.referral-grid p {
+.faq-list p {
   color: #344054;
   line-height: 1.68;
 }
@@ -543,29 +504,20 @@ h2 {
 }
 
 .benefit-grid article,
-.resource-layout article,
-.referral-grid article {
+.resource-layout article {
   padding: 20px;
 }
 
 .benefit-grid strong,
-.referral-grid strong,
-.ambassador-principles strong,
 .privilege-grid h3 {
   display: block;
   color: var(--accent-dark);
 }
 
-.ambassador-principles article,
 .privilege-grid article {
   padding: 20px;
 }
 
-.ambassador-principles {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.ambassador-principles p,
 .privilege-grid p {
   color: var(--muted);
   line-height: 1.7;
@@ -714,55 +666,6 @@ h2 {
 
 .faq-list p {
   padding: 0 18px 18px;
-}
-
-.referral-section {
-  color: #fff;
-  background:
-    linear-gradient(135deg, rgba(19, 64, 80, 0.96), rgba(25, 42, 52, 0.98)),
-    linear-gradient(90deg, #173f52, #253847);
-}
-
-.ambassador-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 28px;
-  align-items: center;
-}
-
-.ambassador-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 24px;
-}
-
-.ambassador-primary-link {
-  padding: 16px 24px;
-  font-size: 17px;
-  font-weight: 900;
-}
-
-.referral-section h2 {
-  color: #fff;
-}
-
-.ambassador-hero .eyebrow,
-.referral-section .eyebrow {
-  color: #9fe2ef;
-}
-
-.referral-section .section-head p,
-.compliance-note {
-  color: #dce9ed;
-}
-
-.referral-section p {
-  color: #dce9ed;
-}
-
-.ambassador-page #start {
-  background: #f1f6f8;
 }
 
 .reward-detail-section {
@@ -1005,8 +908,6 @@ body.modal-open {
   .apply-layout,
   .process-list,
   .intro-strip,
-  .referral-grid,
-  .ambassador-principles,
   .privilege-grid,
   .reward-row,
   .footer {
